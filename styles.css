@@ -66,6 +66,10 @@ body {
   background-color: #bdbdbd;
 }
 
+.button:active {
+  transform: scale(95%);
+}
+
 .numbers1-9 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
