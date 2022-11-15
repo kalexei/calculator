@@ -4,12 +4,6 @@ const input = document.getElementById("calc-input");
 const numberButtons = document.querySelectorAll(".button.number");
 const operatorButtons = document.querySelectorAll(".button.operator");
 
-function handleInputChange(number) {
-  if (parseInt(input.value) === 0) {
-    console.log(number);
-  }
-}
-
 function calculate(string) {
   if (
     string.endsWith(".") ||
