@@ -14,14 +14,9 @@ function calculate(string) {
   ) {
     return;
   }
-  // console.log(string.split(/\+|\-|\*|\//gi));
-  // const plusAndMinusArray = string.split(/\+|\-/gi);
-  // console.log(plusAndMinusArray);
-}
 
-// "64.2+94.2*43.9/12.4-0.42"
-// [64.2, 94.2*43.9/12.4, -0.42]
-// [63.78, 94.2*43.9/12.4]
+  input.value = parseFloat(eval(string).toFixed(10));
+}
 
 const backspaceButton = document.querySelector(".button.backspace");
 
